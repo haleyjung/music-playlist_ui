@@ -29,6 +29,20 @@ body {
   margin-right: 140px;
 }
 
+@keyframes xRotation {
+  from {
+    transform: rotateZ(0)
+  }
+  to {
+    transform: rotateZ(360deg)
+  }
+}
+
+.top-bar i:hover {
+  animation: xRotation 1s ease-in-out;
+  color: #00c6ac;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -36,3 +50,4 @@ body {
   align-items: flex-start;
   margin-left: 30px;
 }
+

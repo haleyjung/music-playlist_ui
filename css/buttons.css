@@ -15,6 +15,7 @@
   border: 2px solid black;
   border-radius: 15px;
   box-shadow: 0 5px 0 black;
+  transition: transform 1s ease-in-out;
 }
 
 .button--play i {
@@ -30,6 +31,11 @@
   align-items: center;
   font-weight: 700;
   font-size: 22px;
+}
+
+.button--play:hover {
+  box-shadow: inset 0 4px 0px 0px rgba(0, 0, 0, 0.5);
+  color: #00c6ac;
 }
 
 /* 2. Heart button */
@@ -50,6 +56,11 @@
   align-items: center;
 }
 
+.button--heart:hover {
+  box-shadow: inset 0 4px 0px 0px rgba(0, 0, 0, 0.5);
+  color: #00c6ac;
+}
+
 /* 3. Share button */
 .button--share {
  display: flex;
@@ -66,4 +77,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button--share:hover {
+  box-shadow: inset 0 4px 0px 0px rgba(0, 0, 0, 0.5);
+  color: #00c6ac;
 }
