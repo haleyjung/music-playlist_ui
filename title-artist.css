@@ -1,0 +1,30 @@
+.title-artist__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.song-title__lg {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 27px;
+}
+
+.artist-name__lg {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.song-title__sm {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.artist-title__sm {
+  font-size: 17px;
+  font-weight: 500;
+  color: gray;
+}

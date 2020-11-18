@@ -1,0 +1,38 @@
+html {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 415px;
+  border: 5px solid #00c6ac;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.top-bar i {
+  margin-left: 35px;
+}
+
+.top-bar span {
+  font-weight: 700;
+  font-size: 28px;
+  margin-right: 140px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 30px;
+}

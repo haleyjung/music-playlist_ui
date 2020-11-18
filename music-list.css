@@ -1,0 +1,50 @@
+/* Screen section top */
+.music-play--now {
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+}
+
+.music-play--list {
+ margin-bottom: 52px;
+}
+
+/* ! check the sqaure */
+.music-play--image__lg {
+  width: 160px; 
+  height: 140px;
+  background-color: #ffbd13;
+  border: 2px solid black;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-play--list {
+  display: flex;
+}
+
+.music-play--image__sm {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+#first {
+  background-color: #f85a2a;
+}
+
+#second {
+  background-color: #ff89bb;
+}
+
+#third {
+  background-color: #1946e6;
+}
+
+#fourth {
+  background-color: #00c6ac;
+}
